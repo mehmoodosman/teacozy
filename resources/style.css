@@ -1,0 +1,107 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    border-bottom: solid 1px seashell;
+    height: 69px;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: seashell;
+    margin: 10px;
+}
+
+h2,h4 {
+    margin: 10px 0;
+}
+
+footer {
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#mission {
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(./img/img-mission-background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.mission {
+    background-color: black;
+    width: 100%;
+}
+.container {
+    position: relative;
+    top: 100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tea {
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+#location {
+    position: relative;
+    top: 100px;
+    height: 500px;
+    width: 1200px;
+    background-image: url(./img/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    padding: 5px 20px;
+    margin-top: 5px;
+}
+
+#bottomleft {
+    text-align: left;
+    margin-left: 20px;
+}
